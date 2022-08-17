@@ -1,4 +1,4 @@
-plr = game.Players
+plr = game:GetService("Players")
 lplr = plr.LocalPlayer
 char = lplr.Character
 mouse = char:GetMouse()
