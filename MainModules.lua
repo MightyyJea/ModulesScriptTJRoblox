@@ -1,10 +1,10 @@
-local plr = game:GetService("Players")
-local lplr = plr.LocalPlayer
-local char = lplr.Character
-local mouse = char:GetMouse()
+local plrs = game:GetService("Players")
+local plr = plrs.LocalPlayer
+local char = plr.Character
+local mouse = plr:GetMouse()
 local root = char.HumanoidRootPart
 local hum = char.Humanoid
 local cam = game.Workspace.CurrentCamera
-local RS = game:GetService("ReplicatedStorage")
+local RST = game:GetService("ReplicatedStorage")
 local UIS = game:GetService("UserInputService")
 
